@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://wallpapers.com/images/hd/4k-blue-minimalist-deer-5fc2dalaakntatt7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#root{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#root input{
+    margin-top: 20px;
+    width: 400px;
+    height: 2.8rem;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+#root h1{
+    color: black;
+    font-size: 70px;
+    text-shadow: 4px 4px 4px rgb(42, 42, 42);
+}
+
+#root button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(125, 195, 242) ;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+    
+}
+
+#root button:hover{
+    background-color: rgb(33, 246, 90);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#root p{
+    margin-top: 50px;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px black;
+}
